@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+  background: black;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#card,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#card7,
+#card8,
+#card9,
+#card10,
+#card11,
+#card12,
+#card13,
+#card14,
+#card15,
+#card16,
+#card17,
+#card18 {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.front {
+  background: gold;
+  text-align: center;
+  font-size: 40px;
+}
+
+.back {
+  background: purple;
+  font-size: 40px;
+  text-align: center;
+}
+
+span {
+  position: relative;
+  top: 70px;
+}
+
+#blue {
+  color: blue;
+}
+
+#silver {
+  color: silver;
+}
+
+#red {
+  color: red;
+}
+
+#pink {
+  color: hotpink;
+}
+
+#aqua {
+  color: aqua;
+}
+
+#yellow {
+  color: yellow;
+}
+
+#green {
+  color: green;
+}
+
+#orange {
+  color: orange;
+}
+
+#chartreuse {
+  color: chartreuse;
+}
