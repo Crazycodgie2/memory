@@ -1,4 +1,4 @@
-$("#card").flip()
+$("#card1").flip()
 $("#card2").flip()
 $("#card3").flip()
 $("#card4").flip()
@@ -17,11 +17,26 @@ $("#card16").flip()
 $("#card17").flip()
 $("#card18").flip()
 
-if ($("#element").css("color") == "silver") {
-  setActiveClass(".matched")
+let card = document.getElementsByClassName("card")
+let cards = [...card]
+
+for (var i = 0; i < cards.length; i++) {
+  cards[i].addEventListener("click", displayCard)
 }
 
-$(".matched").off("click") //disables click event
+$(".card").on("click", function() {
+  if ("click") {
+    var flipped = addClass("flipped")
+  }
+})
+
+var displayCard = function() {
+  this.classList.toggle("flipped")
+  this.classList.toggle("disabled")
+  this.classList.toggle("show")
+}
+
+//disables click event
 
 // if ($("#element").css("color") == "rgb(0, 0, 0)") {
 //   // do something
